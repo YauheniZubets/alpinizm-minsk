@@ -1,0 +1,1 @@
+# alpinizm-minsk.github.io
