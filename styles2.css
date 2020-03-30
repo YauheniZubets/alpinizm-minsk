@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to bottom, #79e4e4 20%, #e4e3e2 50%, #7a7fe5 80%) no-repeat;
+
+}
+#wrapper{
+    width: 83%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 34px;
+    line-height: 33px;
+    position: fixed;
+    top: ; left: ;
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: ;
+}
+.header2{
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+    display: block;
+}
+.label p{
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 64px;
+    font-size: 24px;
+    text-align: center;
+    color: #0D47A1;
+}
+.table table {
+    border: 3px solid lightslategray;
+    margin: auto;
+    margin-top: 3em;
+    table-layout: auto;
+
+    }
+th { border: 1px solid black}
+td{border: 1px solid black}
+
+.footer {
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+}
+.footer-bottom{
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+}
+#vk_contact_us {
+    padding-left: 44%;
+}
+.signature{
+    background-color: black;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    text-align: center;
+}
+.price{
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+}
+.price:hover p{
+    color: #b9151b;
+    background: #d4f8ff;
+    border-radius: 22px;
+
+}
+.to-top{
+    position: fixed;
+    bottom: 3em; right: 1em;
+}
+table {
+    overflow: auto;
+}

@@ -1,0 +1,259 @@
+@media screen and (max-width: 1370px){
+    .title{
+        font-size: 29px;
+    }
+
+}
+@media screen and (max-width: 1270px){
+    .title{
+        font-size: 22px;
+    }
+    .pic {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 1085px){
+
+    .title{
+        font-size: 17px;
+    }
+    .vel {
+        font-size: 20px;
+    }
+    .vel1 {
+        font-size: 20px;
+    }
+    .pic img{
+        width: 333px;
+        height: 464px;
+    }
+    .order1{
+        margin: 1em 1em 3em 3em;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .pic img {
+        width: 300px;
+    }
+    .title {
+        left: 26vw;
+    }
+}
+@media screen and (max-width: 950px){
+    .pic img {
+        width: 273px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .pic {
+        width: 115%;
+    }
+
+    .main_text {
+        line-height: 34px;
+    }
+    .mobile-logo{
+        display: none;
+    }
+    .left {
+        padding-right: 0rem;
+        flex-grow: 1;
+    }
+    .numbers{
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 850px) {
+    .order ul li {
+        text-align: justify;
+    }
+
+    .pic {
+        margin: 1em 1em 1em -1em;
+    }
+
+    .order1 {
+        margin: 1em 1em 3em 1em;
+    }
+}
+@media screen and (max-width: 850px) {
+    .order {
+    display: block;
+    }
+    .pic img {
+        height: 346px;
+    }
+    .order12 {
+        position: inherit;
+    }
+    .pic{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .title {
+        font-size: 17px;
+        left: 31vw;
+        flex-grow: 1;
+        flex-basis: 100px;
+    }
+    .left{
+        flex-grow: 1;
+        flex-basis: 172px;
+    }
+    .vel {
+        font-size: 17px;
+    }
+
+    .vel1 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 660px) {
+        .cont-info {
+            flex-direction: column;}
+        .cont-info img{
+        position: relative;
+            left: 13em;
+        }
+        .vel {
+            font-size: 17px;
+        }
+
+        .vel1 {
+            font-size: 17px;
+        }
+        .title {
+            font-size: 17px;
+            left: 33vw;
+        }
+        .label p {
+        line-height: 44px;
+        }
+}
+@media screen and (max-width: 580px) {
+    .cont-info img{
+        left: 10em;
+    }
+    #vk_contact_us {
+        padding-left: 37%;}
+    #logo img{
+        width: 26%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .vel {
+        font-size: 15px;
+    }
+
+    .vel1 {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 16px;
+        position: absolute;
+        width: 72%;
+        left: 7em;
+    }
+
+}
+
+
+@media screen and (max-width: 506px) {
+    .vel {
+        font-size: 14px;
+    }
+
+    .vel1 {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 15px;
+        width: 73%;
+        left: 8em;
+    }
+    .cont-info img{
+        left: 8em;
+    }
+    .left {
+        flex-grow: 1;
+        flex-basis: 128px;}
+
+}
+@media screen and (max-width: 470px) {
+    #logo {
+        display: none;
+    }
+    .title {
+        position: static;
+        font-size: 10px;
+        width: 100%;
+    }
+    .order ul li {
+        font-family: 'Alegreya', serif;
+        font-size: 18px;}
+    .gallery {
+        margin-top: -2em;
+    }
+    .vel {
+        font-size: 17px;
+    }
+
+    .vel1 {
+        font-size: 17px;
+    }
+    .title {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cont-info p{
+        font-size: 16px;
+    }
+    .left {
+        flex-grow: 1;
+        flex-basis: 161px;}
+    .label p {
+        font-size: 19px;}
+}
+@media screen and (max-width: 420px) {
+    .cont-info img {
+        left: 6em;
+    }
+}
+    @media screen and (max-width: 420px) {
+        .vel {
+            font-size: 15px;
+        }
+
+        .vel1 {
+            font-size: 15px;
+        }
+        .title {
+            font-size: 15px;
+        }
+    }
+
+@media screen and (max-width: 350px) {
+    .cont-info img {
+        left: 5em;
+    }
+    .vel {
+        font-size: 13px;
+    }
+
+    .vel1 {
+        font-size: 13px;
+    }
+    .title {
+        font-size: 13px;
+    }
+    .left {
+        flex-grow: 1;
+        flex-basis: 138px;
+}
+
+

@@ -1,0 +1,9 @@
+@media screen and (max-width: 870px){
+    .label p {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 700px){
+    .label p {
+        line-height: 33px;
+}

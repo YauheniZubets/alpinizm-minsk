@@ -1,0 +1,204 @@
+body{
+    background: linear-gradient(to bottom, #79e4e4 20%, #e4e3e2 50%, #7a7fe5 80%) no-repeat;
+
+}
+#wrapper{
+    width: 83%;
+    margin: 0 auto;
+
+}
+.header{
+    position: relative;
+}
+#logo{
+   position: relative;
+    top: 1em;
+}
+.title{
+    font-size: 34px;
+    line-height: 33px;
+    position: fixed;
+    top: 2vw; left: 23vw;
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 5;
+    width: 58%;
+}
+.left{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.main_text{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 64px;
+
+}
+.mobile-logo{
+    padding: 1rem 1rem 1rem 0rem;
+}
+.mobile-logo ul li{
+    line-height: 32px;
+}
+.numbers{
+    padding: 1rem 1rem 1rem 0rem;
+}
+.vel{
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+.vel1{
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+#carouselExampleFade{
+    border-radius: 22px;
+    margin-top: 4em;
+    overflow: hidden;
+}
+.content{
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+}
+.label p{
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 64px;
+    font-size: 24px;
+    text-align: center;
+    color: #0D47A1;
+}
+.cont-info{
+    display: flex;
+    justify-content: space-around;
+}
+.cont-info1 p{
+    text-align: center;
+    color: ;
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+div.cont-info1:hover{
+    color: #f53023;
+    cursor: default;
+}
+.mosaicflow{
+    margin-top: 3em;
+    border-radius: 22px ;
+}
+.mosaicflow:after{
+    content:"."; visibility: hidden;display: block; height: 0; clear: both;
+}
+.mosaicflow__column {
+    float:left;
+}
+
+.mosaicflow__item {
+    position:relative;
+}
+.mosaicflow__item img {
+    display:block;
+    width:100%;
+    max-width:500px;
+    height:auto;
+}
+.mosaicflow__item p {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    margin:0;
+    padding:5px;
+    background:hsla(0,0%,0%,.5);
+    color:#fff;
+    font-size:14px;
+    text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+    opacity:0;
+    -webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+    -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+    -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+    transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+}
+.mosaicflow__item:hover p {
+    opacity:1;
+}
+.contact{
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 0 5%;
+}
+.pic {
+    overflow: hidden;
+    width: 60%;
+    height: 100%;
+    margin-bottom: 3em;
+
+}
+.order ul li{
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+}
+.order11 li{
+    list-style-type: circle;
+}
+.order12{
+    position: relative;
+    left: 7%; top: 30px;
+}
+.footer {
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+}
+.footer-bottom{
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+}
+#vk_contact_us {
+    padding-left: 44%;
+}
+.signature{
+    background-color: black;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    text-align: center;
+}
+.price{
+    background: linear-gradient(to bottom, #e2edff 65%, #3e2723 135%);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    margin-top: 3em;
+    border: solid black 3px;
+}
+.price:hover p{
+    color: #b9151b;
+    background: #d4f8ff;
+    border-radius: 22px;
+
+}
+#topcontrol{
+    position: fixed;
+    bottom: 3em; right: 1em;
+}
+
