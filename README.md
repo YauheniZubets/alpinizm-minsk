@@ -1,1 +1,1 @@
-# alpinizm-minsk
+# https://yauhenizubets.github.io/alpinizm-minsk/
